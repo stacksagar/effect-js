@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Effect with JS</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="dist/effect-js.min.css">
+</head>
+
+<body>
+
+  <nav class="nav">
+    <div class="navContain">
+      <div class="navLogo"><img src="images/stackLogo.png" alt=""></div>
+      <div class="navItem">
+        <a href="#getStarted">Get Started <i class="fas fa-arrow-down"></i></a>
+        <a href="#how-to-use"> How to use <i class="fas fa-question"></i></a>
+      </div>
+      <div class="view">
+        <a href="https//github.com/stacksagar"><i class="fab fa-github"></i> View Github</a>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Home -->
+  <section class="home">
+    <div class="homeContain">
+      <a class="3000 go" data-effectJs="fade-in" href="#getStarted"><i class="fas fa-angle-down"></i></a>
+    </div>
+  </section>
+  <div class="homeBottom">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#083c74" fill-opacity="1"
+        d="M0,128L30,154.7C60,181,120,235,180,229.3C240,224,300,160,360,144C420,128,480,160,540,186.7C600,213,660,235,720,218.7C780,203,840,149,900,144C960,139,1020,181,1080,176C1140,171,1200,117,1260,112C1320,107,1380,149,1410,170.7L1440,192L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z">
+      </path>
+    </svg>
+  </div>
+  <!-- End Home -->
+
+  <!-- Get Started  -->
+  <section id="getStarted">
+    <div id="allEffect"></div>
+    <div id="how-to-use">
+
+      <h5 class="linkTitle">Get Files</h5>
+      <div class="download">
+        <a href="dist.zip">Download <i class="fas fa-download"></i></a>
+        <a href="https://github.com/stacksagar/effectJs">Github <i class="fab fa-github"></i></a>
+      </div>
+
+      <h3 class="linkTitle">CSS File</h3>
+      <p class="linkFile">
+        <b><i>Required!</i></b>
+        <span class="cssSelect">&lt;link rel="stylesheet" href="css/effect-js.min.css"&gt;</span>
+        <i id="cssCopy" onclick="cssCopy()" class="fas fa-copy"></i>
+      </p>
+
+      <h3 class="linkTitle">JS File</h3>
+      <p class="linkFile">
+        <b><i>Required!</i></b>
+        <span class="jsSelect">&lt;script src="js/effect-js.min.js"&gt;&lt;/script&gt;</span>
+        <i id="jsCopy" onclick="jsCopy()" class="fas fa-copy"></i>
+      </p>
+
+      <h3 class="linkTitle">Guide</h3>
+      <ul class="notice">
+        <h4>two way you can use animation duration </h4>
+        <li>Must you have to writte duration number class in first position example:<b> class"1000 anotherClass"<i
+              class="fas fa-check-circle"></i> class"anotherClass 1000"<i class="fas fa-times-circle"></i> </b> (
+          minimum"1"
+          & maximum"3000" ) </li>
+        <li>&lt;div <b>data-effectJs-duration="1000"</b> &gt;&lt;/div&gt;</li>
+        <br><br>
+        <h4>All Attribute</h4>
+        <li>
+          &lt;div <br>
+          data-aos="fade-up" <br>
+          data-aos-offset="200" <br>
+          data-aos-delay="50" <br>
+          data-aos-duration="1000" or class="1000 anotherClass" <br>
+          data-aos-easing="ease" &gt; <br>
+          &lt;/div&gt;
+        </li>
+      </ul>
+      <p class="linkTitle">Example</p>
+      <p class="effectExample">
+        <span>&lt;div data-effectJs-duration="1500" data-effectJs="fade-in"&gt;&lt;/div&gt;</span>
+        <span>&lt;div class="1500 anotherClass" data-effectJs="fade-in"&gt;&lt;/div&gt;</span>
+      </p>
+      <h3 class="linkTitle">All Animation Name</h3>
+      <div class="allAnimationName">
+        <span class="aName"> fade </span>
+        <span class="aName"> fade-up </span>
+        <span class="aName"> fade-down </span>
+        <span class="aName"> fade-left </span>
+        <span class="aName"> fade-right </span>
+        <span class="aName"> fade-up-right </span>
+        <span class="aName"> fade-up-left </span>
+        <span class="aName"> fade-down-right </span>
+        <span class="aName"> fade-down-left </span>
+        <span class="aName"> flip-up </span>
+        <span class="aName"> flip-down </span>
+        <span class="aName"> flip-left </span>
+        <span class="aName"> flip-right </span>
+        <span class="aName"> slide-up </span>
+        <span class="aName"> slide-down </span>
+        <span class="aName"> slide-left </span>
+        <span class="aName"> slide-right </span>
+        <span class="aName"> zoom-in </span>
+        <span class="aName"> zoom-in-up </span>
+        <span class="aName"> zoom-in-down </span>
+        <span class="aName"> zoom-in-left </span>
+        <span class="aName"> zoom-in-right </span>
+        <span class="aName"> zoom-out </span>
+        <span class="aName"> zoom-out-up </span>
+        <span class="aName"> zoom-out-down </span>
+        <span class="aName"> zoom-out-left </span>
+        <span class="aName"> zoom-out-right </span>
+      </div>
+
+    </div>
+
+
+
+    <div class="hidden">
+      <textarea class="jsLink">&lt;script src="js/effect-js.min.js"&gt;&lt;/script&gt;</textarea>
+      <textarea class="cssLink">
+    &lt;link rel="stylesheet" href="css/effect-js.min.css"&gt;
+   </textarea>
+    </div>
+  </section>
+  <!-- End Get Started  -->
+
+  <script src="src/all.min.js"></script>
+  <script src="src/custom.js"></script>
+  <script src="dist/effect-js.min.js"></script>
+
+</body>
+
+</html>
