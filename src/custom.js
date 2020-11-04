@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let efct = "";
   effectName.map((effect) => {
     efct += `
-  <div class="1200 effect" data-effectJs="${effect}">
+  <div class="1500 effect" data-effectJs="${effect}">
    <span class="dataEffectText">data-effectJs="${effect}"</span>
   </div> 
   `;
