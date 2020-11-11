@@ -212,10 +212,7 @@ html {
 }
 .download a:hover{
  background:#fff;
-}
-.fixedName a .fa-github{
- margin-bottom:-2px !important;
-}
+} 
 @media (max-width: 767px){
  #getStarted #allEffect { 
   grid-template-columns: repeat(1, minmax(250px, 1fr)); 
