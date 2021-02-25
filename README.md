@@ -1,15 +1,12 @@
 # Effect Item with CSS, Pure JavaScript <a href="https://stacksagar.github.io/effect-js">View Demo & Docs</a>
-
----
+ 
 
 ## Documentation
 **two way you can use animation duration**
 - Must you have to writte duration number class in first position example: `class="1000 anotherClass"`  ( `minimum"1"` & `maximum"3000"` )
 
 <div data-effectJs-duration="1000" ></div>
- 
- ---
-
+  
 ## All Attribute
 ```html
 <div
