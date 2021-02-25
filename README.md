@@ -1,5 +1,4 @@
 # Effect Item with CSS, Pure JavaScript <a href="https://stacksagar.github.io/effect-js">View Demo & Docs</a>
- 
 
 ## Documentation
 **two way you can use animation duration**
@@ -66,6 +65,18 @@ zoom-out-right
 <div class="1500 anotherClass" data-effectJs="fade-in"></div>
 ```
   
+### Connect
+
+[![Facebook][facebook-shield]][facebook-url] [![twitter][twitter-shield]][twitter-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=flat-square&logo=facebook&color=555&logoColor=white
+[facebook-url]: https://facebook.com/stacksagar
+[twitter-shield]: https://img.shields.io/badge/-Twitter-black.svg?style=flat-square&logo=twitter&color=555&logoColor=white
+[twitter-url]: https://twitter.com/stacksagar
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/**in**/stacksagar
+
  
 ## License
 
