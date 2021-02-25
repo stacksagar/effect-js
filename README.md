@@ -10,7 +10,7 @@
  
  ---
 
-######All Attribute
+## All Attribute
 ```html
 <div
     data-aos="fade-up"
@@ -21,7 +21,7 @@
 </div>
 ```
   
-######Put the required html & css files
+## Put the required html & css files
 
 ```html
 Required! <link rel="stylesheet" href="css/effect-js.min.css"> 
@@ -32,7 +32,7 @@ Required! <script src="js/effect-js.min.js"></script>
 ```
  
 
-####All Animation Name
+## All Animation Name
 ```
 fade
 fade-up
